@@ -136,7 +136,7 @@ p {
 .fotos,
 .agendamento {
   padding: 20px 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .mapa {
@@ -176,7 +176,7 @@ p {
 
 .btn-agendar-um {
   padding: 0.5rem 1rem;
-  background-color: #89d0bd;
+  background-color: gold;
   color: #000;
   font-size: 1rem;
   font-weight: bold;
@@ -186,7 +186,8 @@ p {
 }
 
 .btn-agendar-um:hover {
-  background-color: #6bb4a5;
+  background-color: red;
+  color: white;
 }
 
 .section-secundaria {
@@ -514,18 +515,6 @@ section {
   height: auto;
   display: block;
   margin: 0 auto;
-}
-
-.btn-agendar,
-.btn-agendar-um {
-  display: inline-block;
-  background: #4CAF50;
-  color: #fff;
-  padding: 10px 20px;
-  margin: 10px auto;
-  text-decoration: none;
-  text-align: center;
-  border-radius: 5px;
 }
 
 .agendamento form {
