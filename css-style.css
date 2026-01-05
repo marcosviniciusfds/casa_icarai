@@ -74,13 +74,23 @@ p {
   background-image: linear-gradient(90deg, #a6a6a6, #ffffff);
 }
 
+.incol-elemento {
+  background-image: linear-gradient(90deg, #a6a6a6, transparent);
+}
+
+
 .hero-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 4rem;
-  background: linear-gradient(90deg, #a6a6a6, #ffffff);
+  background: none;
   min-height: 90vh;
+}
+
+.dv-esp-sect{
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .hero-section-dois {
@@ -390,6 +400,13 @@ section {
 
 .text-1-2_2 {
   font-size: 1.8rem;
+  margin-top: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.text-1-2_3 {
+  font-size: 1.2rem;
   margin-top: 10px;
   text-align: left;
   font-weight: bold;
