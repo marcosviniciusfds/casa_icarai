@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Icaraí</title>
+    <link rel="stylesheet" href="style-icarai.css">
+</head>
+<body>
+    <h1>TABELA ICARAÍ</h1>
+    <!-- 12 Tabelas (Janeiro a Dezembro) -->
+    <div id="tabelas"></div>
+    <!-- Formulário -->
+    <form id="formReserva">
+        <div>
+            <label for="mes">Mês:</label><br>
+            <select id="mes" required>
+                <option value="">Selecione o mês</option>
+                <option value="janeiro">Janeiro</option>
+                <option value="fevereiro">Fevereiro</option>
+                <option value="marco">Março</option>
+                <option value="abril">Abril</option>
+                <option value="maio">Maio</option>
+                <option value="junho">Junho</option>
+                <option value="julho">Julho</option>
+                <option value="agosto">Agosto</option>
+                <option value="setembro">Setembro</option>
+                <option value="outubro">Outubro</option>
+                <option value="novembro">Novembro</option>
+                <option value="dezembro">Dezembro</option>
+            </select>
+        </div>
+        <div>
+            <label for="data">Data:</label>
+            <input type="text" id="data" placeholder="dd/mm a dd/mm">
+        </div>
+        <div>
+            <label for="est">Est:</label>
+            <input type="text" id="est">
+        </div>
+        <div>
+            <label for="valor">Valor:</label>
+            <input type="text" id="valor">
+        </div>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome">
+        </div>
+        <button type="submit">Enviar dados</button>
+    </form>
+    <script src="js-icarai.js"></script>
+</body>
+
+</html>

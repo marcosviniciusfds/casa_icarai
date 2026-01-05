@@ -1,0 +1,85 @@
+body {
+    background-size: cover;
+    font-family: Arial, sans-serif;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Opcional: para fixar a imagem ao fundo */
+    background-position: center center; /* Opcional: para centralizar a imagem */
+    min-height: 100%; /* Garante que o corpo cubra toda a altura da tela */
+}
+
+h1 {
+    color: gold;
+    text-align: center;
+}
+
+.tabela-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    gap: 20px;
+    align-items: flex-start;
+    background: none;
+    padding: 10px;
+    border-radius: 8px;
+    border-color: white;
+    border-style: solid;
+}
+
+.tabela-container img {
+    max-width: 200px;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 300px;
+    background: white;
+    color: black;
+}
+
+table td,
+table th {
+    border: 2px solid black;
+    padding: 6px;
+    text-align: center;
+}
+
+.btn-apagar {
+    margin-top: 10px;
+    padding: 6px 10px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+form {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 20px auto;
+    color: white;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+input,
+select {
+    padding: 6px;
+    width: 95%;
+}
+
+button {
+    padding: 10px 15px;
+    background: yellow;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
