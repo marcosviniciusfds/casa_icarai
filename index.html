@@ -8,6 +8,10 @@
   <meta name="description" content="Casa para Alugar no Icarai">
   <meta name="keywords" content="Lazer, aluguel, Casa.">
   <meta name="author" content="Marcos Vinicius">
+  <!-- CARROSSEL NOVO -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/main.css">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="style-icarai.css">
   <link rel="stylesheet" href="css-style.css">
@@ -34,6 +38,39 @@
 
   <section class="fotos hero-section cor-transparente" id="inicio" style="margin-top: 100px;">
 
+    <div class="box">
+
+      <!-- SLIDE PRINCIPAL -->
+      <div class="swiper slide-imagens">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/slide-01.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/slide-02.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/slide-03.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/slide-04.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/slide-05.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/slide-0..png" alt=""></div>
+        </div>
+      </div>
+
+      <!-- THUMBNAILS -->
+      <div class="swiper slide-thumbnail">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/slide-01.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/slide-02.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/slide-03.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/slide-04.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/slide-05.png" alt=""></div>
+          <div class="swiper-slide"><img src="img/slide-06.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="./js/scripts.js"></script>
+
+  </section>
+
+  <section class="section">
     <div class="text dv-esp-sect incol-elemento">
 
       <p class="text-1-2_3">
@@ -52,33 +89,9 @@
         ✅ Wi-Fi <br>
         ✅ A casa é bem arejada, ventilada e está situada em região tranquila do Icaraí.
       </p>
-
-    </div>
-
-    <div class="carousel-container text-um">
-      <button class="prev">&#10094;</button>
-      <div class="carousel">
-        <img src="imagem/img-casa-01.png" alt="Imagem 1" class="active" />
-        <img src="imagem/img-casa-02.png" alt="Imagem 2" />
-        <img src="imagem/img-casa-03.png" alt="Imagem 3" />
-        <img src="imagem/img-casa-04.png" alt="Imagem 4" />
-        <img src="imagem/img-casa-05.png" alt="Imagem 5" />
-        <img src="imagem/img-casa-06.png" alt="Imagem 6" />
-      </div>
-      <button class="next">&#10095;</button>
-      <div class="indicators">
-        <span class="dot active" data-index="0"></span>
-        <span class="dot" data-index="1"></span>
-        <span class="dot" data-index="2"></span>
-        <span class="dot" data-index="3"></span>
-        <span class="dot" data-index="4"></span>
-        <span class="dot" data-index="5"></span>
-        <span class="dot" data-index="6"></span>
-      </div>
     </div>
   </section>
-  <script src="carscript.js"></script> <!-- Script do Carrocel -->
-
+  
   <section class="section" id="data-aluguel">
     <h1>TABELA ICARAÍ</h1>
     <!-- 12 Tabelas (Janeiro a Dezembro) -->
