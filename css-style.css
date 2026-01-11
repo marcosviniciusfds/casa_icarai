@@ -6,7 +6,7 @@
 
 body {
   margin: 0;
-  background-image: url(imagem/img-deck-002.jpeg);
+  background-image: url(imagem/img-icarai-003.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -70,7 +70,7 @@ p {
   padding-top: -2px;
 }
 
-.cor-back { 
+.cor-back {
   background-image: linear-gradient(90deg, #a6a6a6, #ffffff);
 }
 
@@ -88,9 +88,9 @@ p {
   min-height: 90vh;
 }
 
-.dv-esp-sect{
-    padding-right: 10px;
-    padding-left: 10px;
+.dv-esp-sect {
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .hero-section-dois {
@@ -352,7 +352,7 @@ section {
   font-size: 1rem;
   font-weight: 600;
   margin-top: 5px;
-  
+
 }
 
 .text-1-0-mrs {
@@ -484,7 +484,7 @@ section {
 
 .hero-image img {
   border-radius: 10px;
-  opacity: 0.8;
+  opacity: 1.8;
 }
 
 .hero-image img {
@@ -661,7 +661,8 @@ section {
 }
 
 .footer {
-  background-color: #af7e6c;
+  background: #5a4343;
+  box-shadow: 0px 2px 5px rgba(100, 68, 68, 0.107);
   color: #fff;
   text-align: center;
   padding: 10px;

@@ -83,3 +83,54 @@ button {
     cursor: pointer;
     font-weight: bold;
 }
+
+/* Nova parte */
+.section {
+  background: #f7f7f7;
+  padding: 60px 20px;
+}
+
+.section-dois {
+  background-color: none;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-tres {
+  background-color: none;
+  padding: 60px 20px;
+}
+
+.text {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.text-color {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.text-dois {
+  font-size: 60px;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.btn-agendar-um, .btn-destaque {
+  display: inline-block;
+  background: linear-gradient(135deg, #25d366, #128c7e);
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-agendar-um:hover, .btn-destaque:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
