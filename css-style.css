@@ -37,33 +37,12 @@ img {
   height: auto;
 }
 
-h1 {
-  font-family: Kalam Light;
-}
-
-h2,
-h3 {
-  color: gold;
-}
-
 p {
   font-size: 0.8rem;
 }
 
-.linha_p {
-  color: #f7e380;
-}
-
-.linha_p_gold {
-  color: gold;
-}
-
 .linha_p_black {
   color: black;
-}
-
-.linha_p_marsala {
-  color: #AC203D;
 }
 
 .auto-top {

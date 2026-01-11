@@ -8,10 +8,6 @@ body {
     min-height: 100%; /* Garante que o corpo cubra toda a altura da tela */
 }
 
-h1 {
-    color: gold;
-    text-align: center;
-}
 
 .tabela-container {
     display: flex;
